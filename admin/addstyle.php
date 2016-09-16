@@ -1,7 +1,7 @@
-		<div id="main">
-		<div class="nav">添加种类</div>
+<!--		<div id="main">-->
+<!--		<div class="nav">添加种类</div>-->
 <?php
-include('config.php');
+include('../config.php');
 session_start();
 if(!isset($_SESSION['uname']))	header("Location: login.php"); 
 include('adminheader.php');
@@ -23,6 +23,6 @@ if(isset($_POST['stylename'])){
 	else echo '添加失败';
 }
 
-include('footer.php');
+include('adminfooter.php');
 ?>
 </div>

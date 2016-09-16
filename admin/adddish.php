@@ -1,7 +1,7 @@
 <!--		<div id="main">-->
 <!--		<div class="nav">添加菜品</div>-->
 <?php
-include('config.php');
+include('../config.php');
 session_start();
 if(!isset($_SESSION['uname']))	header("Location: login.php");
 include('adminheader.php');
@@ -56,13 +56,13 @@ if(isset($_POST['dishname'])){
 
 				// 判断当期目录下的 upload 目录是否存在该文件
 				// 如果没有 upload 目录，你需要创建它，upload 目录权限为 777
-				if (file_exists("upload/" . $file_saved_name)) {
+				if (file_exists("../upload/" . $file_saved_name)) {
 					echo $file_saved_name . " 文件已经存在。 ";
 				}
 				else {
 					// 如果 upload 目录不存在该文件则将文件上传到 upload 目录下
-					move_uploaded_file($_FILES["dishimage"]["tmp_name"], "upload/" . $file_saved_name);
-//					echo "文件存储在: " . "upload/" . $file_saved_name;
+					move_uploaded_file($_FILES["dishimage"]["tmp_name"], "../upload/" . $file_saved_name);
+//					echo "文件存储在: " . "../upload/" . $file_saved_name;
 				}
 			}
 		} else {
@@ -89,6 +89,6 @@ while($row = mysql_fetch_row($style_list_result)){
 	
 }
 echo '</ul></div>';
-include('footer.php');
+include('adminfooter.php');
 ?>
 </div>

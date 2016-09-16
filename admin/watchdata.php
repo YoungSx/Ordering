@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('../config.php');
 $sql="SELECT * FROM `menu` where `already`=0 ORDER BY `time`";
 $result = mysql_query($sql);
 if(!$result) exit();

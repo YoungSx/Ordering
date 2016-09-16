@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('../config.php');
 if(!isset($_GET['mid'])) exit();
 $menu_id=$_GET['mid'];
 $sql="UPDATE `menu` SET `already` = '1' WHERE `menu`.`mid` = ".$menu_id;

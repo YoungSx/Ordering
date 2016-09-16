@@ -98,11 +98,16 @@ footer{
 	color:#aaa;
 
 }
-#nav .navli{
+#navbar{
+	width:430px;
+	margin:0px auto;
+	text-align: center;
+}
+#navbar .navli{
 	float:left;
 	padding:0px 5px;
 }
-#nav .navli:hover{
+#navbar .navli:hover{
 
 }
 #nav ul{

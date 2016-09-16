@@ -18,7 +18,7 @@ echo <<<EOT
 						<div><a href="index.php" class="chooseLeft" >顾客</a></div>
 					</div>
 					<div class="choose2">
-						<div><a href="login.php" class="chooseRight" >商家</a></div>
+						<div><a href="admin/login.php" class="chooseRight" >商家</a></div>
 					</div>
 				<div>
 				<div class="table">我在这张桌</div>
