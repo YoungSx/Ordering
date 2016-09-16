@@ -1,5 +1,3 @@
-<div id="main">
-<div class="nav">点菜</div>
 <?php
 if(!isset($_POST['myMenuIPT'])) exit();
 include('config.php');
