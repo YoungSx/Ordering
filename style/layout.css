@@ -31,28 +31,28 @@ h1, h2 {
 	border-bottom:1px solid #eee;
 }
 .title{
-	clear: both;
-	margin-top: 2em;
-  	border-bottom: 2px solid #eee;
+
   	line-height: 1.5;
   	clear:both;
-	padding-left:10px;
-	text-align: left;;
+	background: #007DFF;
+	color: #fff;
+
 }
 .dtitle{
 	background-color: #ffffff;
 }
-.dish{
-	border: 1px solid #eee;
-	float:left;
-	width: 49%;
-	background: #ffffff;
+.dish {
+    float: left;
+    width: 44%;
+    background: #ffffff;
+    margin: 1%;
+    padding: 2%;
 }
 .dish:hover{
 	transition: all 0.5s ease;
 }
 .dish img{
-	/*width:100%;*/
+	max-width:100%;
 	height:150px;
 }
 .dish button{
@@ -63,22 +63,27 @@ h1, h2 {
 .cont{
 	display: box;
 	box-orient: horizontal;
+	background: #007DFF;
 }
 textarea{
 	width:98%;
 }
 .count-modify{
-	width:80px;
-	float:right;
+	width:100%;
 }
 .add,.minus{
-	padding:5px 5px;
-	text-align:center;
+	width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px ;
 	cursor: pointer;
 	background: #ffffff;
 	color: #007DFF;
 	border-color: #007DFF;
 	transition: all 0.2s ease;
+	border-radius: 50%;
+	border: 1px solid #007DFF;
+	display: inline-block;
 }
 .add:hover,.minus:hover{
 	background: #007DFF;
@@ -86,8 +91,8 @@ textarea{
 	border-color: #007DFF;	
 }
 .count{
-	width:30px;
-	height:20px;
+	width:40px;
+	height:25px;
 	border: 1px solid #007DFF;
 	text-align: center;
 }
@@ -317,6 +322,14 @@ color: #FFFFFF;
 	margin-bottom: 20px;
 	border-bottom:1px solid #E4E4E6;
 }
+.nav1{
+	width: 100%;
+	height: 40px;
+	background: #F5F5F5;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 40px;
+}
 .textK1{
 	height: 30px;
 	 border: 1px solid #dedede;
@@ -402,4 +415,7 @@ color: #FFFFFF;
 	height: 120px;
 	line-height: 100px;
 	font-size: 16px;
+}
+.center{
+	background: #eee;
 }

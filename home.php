@@ -7,15 +7,15 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no"/>
   		<script src="JS/mainscript.js"></script>
 	</head>
-	<body>
+	<body style=" background: #eee; ">
 		<div id="main">
-		<div class="nav">点菜</div>
-			<div id="header">
+		
+			<div id="header" class="nav1">
 <?php
 if(isset($_GET['tableId'])){
 	session_start();
 	$_SESSION['table_id']=$_GET['tableId'];
-	echo '亲爱的'.$_GET['tableId']."号桌客人，请在下面选择喜欢的菜，祝您用餐愉快！";
+	echo ' '.$_GET['tableId']."号桌";
 }
 ?>
 				<div id='cnav'>
@@ -29,7 +29,7 @@ if(isset($_GET['tableId'])){
 				
 				
 			</div>
-			<div id="center">
+			<div id="center" class="center">
 <?php
 include('config.php');
 $sql="SELECT * FROM dish";
@@ -54,7 +54,7 @@ EOT2;
 							<div class='dcont'>
 								<img src='upload/".$menu[$i][$j][3]."' alt=''>
 								<div class='count-modify'>
-									<span class='minus' onclick='minusDC(".$menu[$i][$j][0].")'>-</span><input type='text' class='count' id='count".$menu[$i][$j][0]."' name='count'/><span class='add' onclick='addDC(".$menu[$i][$j][0].")'>+</span>
+									<div class='minus' onclick='minusDC(".$menu[$i][$j][0].")'>-</div><input type='text' class='count' id='count".$menu[$i][$j][0]."' name='count'/><div class='add' onclick='addDC(".$menu[$i][$j][0].")'>+</div>
 								</div>
 							</div>	
 						</div>";
