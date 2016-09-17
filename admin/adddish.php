@@ -91,4 +91,3 @@ while($row = mysql_fetch_row($style_list_result)){
 echo '</ul></div>';
 include('adminfooter.php');
 ?>
-</div>
