@@ -33,7 +33,6 @@ echo <<<EOT1
 				</div>
 				<div class="indexButton">
 					<input type="submit" class="btn" value="我要点菜"/>
-					<a href="src/test.html" class="btn">在线扫码</a>
 				</div>
 			</form>
 	
