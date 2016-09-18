@@ -25,4 +25,3 @@ if(isset($_POST['stylename'])){
 
 include('adminfooter.php');
 ?>
-</div>

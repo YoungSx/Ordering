@@ -20,5 +20,6 @@ a{ text-decoration:none;color: #007DFF;}
             <div class='num1'><a href='watch.php'>未处理</a></div>
             <div class='num1'><a href='adddish.php'>添加菜</a></div>
             <div class='num1'><a href='addstyle.php'>添加种类</a></div>
+            <div class='num1'><a href='createQRCode.php'>二维码</a></div>
 		</div>
 ";
