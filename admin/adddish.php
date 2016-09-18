@@ -8,15 +8,15 @@ include('adminheader.php');
 ?>
 	<div id='content'>
 		<form action='adddish.php' method='POST' enctype="multipart/form-data" id="dish_form">
-			添加一个菜吧！<br />
+			<h3 class="stylename">添加一个菜吧<h3>
 			<label>菜名</label>
-			<input type='text' name='dishname' class="textK3" form='dish_form'/><br />
+			<input type='text' name='dishname' class="textK1" form='dish_form'/><br />
 			<label>菜价</label>
-			<input type='text' name='dishprice' class="textK3" form='dish_form'/><br />
+			<input type='text' name='dishprice' class="textK1" form='dish_form'/><br />
 			<label>种类</label>
-			<input type='text' name='dishstyle' class="textK3" form='dish_form'/><br />
+			<input type='text' name='dishstyle' class="textK1" form='dish_form'/><br />
             <label>图片</label>
-            <input type='file' name='dishimage' id="file" form='dish_form'/><br />
+            <input type='file' name='dishimage' id="file"  class="textK2 btn" form='dish_form'/><br />
 			<input type='submit' class="btn" value='添加'/>
 		</form>
 	</div>
@@ -82,7 +82,7 @@ if(isset($_POST['dishname'])){
 echo '<hr />';
 $sql_style_list='SELECT * FROM `style`';
 $style_list_result=mysql_query($sql_style_list);
-echo '<div id="styleList">种类详情：<ul>';
+echo '<div id="styleList">种类详情<ul>';
 while($row = mysql_fetch_row($style_list_result)){
 	echo '<li>种类ID：'.$row[0].' 种类名：'.$row[1].'</li>';
 

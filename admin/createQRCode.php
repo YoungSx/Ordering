@@ -8,9 +8,9 @@ include('adminheader.php');
 <script type="text/javascript" src="JS/jquery.min.js"></script>
 <script type="text/javascript" src="JS/qrcode.min.js"></script>
 
-<label for="text">在下方输入桌号，如1，再点击生成</label><br />
-<input id="text" type="text" value="1" style="width:80%" /><br />
-<div id="qrcode" style="width:100px; height:100px; margin-top:15px; text-align:center;"></div>
+<h3 for="text" class="stylename">在下方输入桌号，如1，再点击生成</h3>
+<input class="textK1 textK3" id="text" type="text" value="1" style="width:80%" /><br />
+<div id="qrcode" style="width:100px; height:100px; margin-top:15px; text-align:center;margin: 10px auto;margin-top:25px;"></div>
 
 <script type="text/javascript">
     var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -48,7 +48,7 @@ include('adminheader.php');
         makeCode();
     }
 </script>
-<button onclick="startCreate()">生成</button>
+<button class="btn" onclick="startCreate()">生成</button>
 <div>右键或长按二维码图片以保存</div>
 
 <?php

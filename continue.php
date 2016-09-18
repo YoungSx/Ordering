@@ -37,6 +37,7 @@ $save_menu_sql = "INSERT INTO  `menu` (
 $result=mysql_query($save_menu_sql);
 if($result) echo '您的菜单已经提交~';
 else echo '菜单提交失败...';
+echo "</br><a href='index.php' class='btn'>回到首页</a>";
 include('footer.php');
 ?>
 </div>

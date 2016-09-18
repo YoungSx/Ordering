@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc278a57-6728-4042-835b-2e20dc5c5d8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/dishlist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/adddish.php" afterPath="$PROJECT_DIR$/admin/adddish.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/addstyle.php" afterPath="$PROJECT_DIR$/admin/addstyle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/adminheader.php" afterPath="$PROJECT_DIR$/admin/adminheader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/createQRCode.php" afterPath="$PROJECT_DIR$/admin/createQRCode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dishlist.php" afterPath="$PROJECT_DIR$/admin/dishlist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/watch.php" afterPath="$PROJECT_DIR$/admin/watch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/watchdata.php" afterPath="$PROJECT_DIR$/admin/watchdata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/confirm.php" afterPath="$PROJECT_DIR$/confirm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/continue.php" afterPath="$PROJECT_DIR$/continue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/layout.css" afterPath="$PROJECT_DIR$/style/layout.css" />
     </list>
     <ignored path="root.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,12 +50,12 @@
             <state relative-caret-position="420">
               <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
               <folding>
-                <marker date="1474188175307" expanded="true" signature="34:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="42:473" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="412:464" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="507:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="525:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="585:930" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="34:998" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="42:473" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="412:464" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="507:998" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="525:998" ph="..." />
+                <marker date="1474202356000" expanded="true" signature="585:997" ph="..." />
               </folding>
             </state>
           </provider>
@@ -58,10 +66,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <marker date="1474133552000" expanded="true" signature="2503:2686" ph="INSERT INTO `dish`... " />
-                <marker date="1474133552000" expanded="true" signature="2843:2864" ph="SELECT * FRO... style" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,19 +74,9 @@
       <file leaf-file-name="dishlist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/dishlist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="1026">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <marker date="1474188115646" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
-                <marker date="1474188115646" expanded="true" signature="417:466" ph="DELETE FROM " />
-                <marker date="1474188115646" expanded="true" signature="417:467" ph="DELETE FROM " />
-                <marker date="1474188115646" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
-                <marker date="1474188115646" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
-                <marker date="1474188115646" expanded="true" signature="1401:1425" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1401:1437" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1401:1643" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1504:1643" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +104,7 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="608">
               <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding>
                 <marker date="1474136752000" expanded="true" signature="273:578" ph="..." />
@@ -133,20 +128,8 @@
       <file leaf-file-name="addstyle.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/addstyle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <marker date="1474133552000" expanded="true" signature="540:625" ph="INSERT INTO `style`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createQRCode.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/createQRCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="475">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -200,6 +183,7 @@
         <option value="$PROJECT_DIR$/admin/createQRCode.php" />
         <option value="$PROJECT_DIR$/admin/dishlist.php" />
         <option value="$PROJECT_DIR$/admin/adminheader.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -211,10 +195,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="404" />
-    <option name="y" value="371" />
-    <option name="width" value="909" />
-    <option name="height" value="667" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -275,8 +259,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +352,8 @@
       <workItem from="1474040892861" duration="9743000" />
       <workItem from="1474129469583" duration="4144000" />
       <workItem from="1474167350321" duration="2085000" />
-      <workItem from="1474169989197" duration="6757000" />
+      <workItem from="1474169989197" duration="6778000" />
+      <workItem from="1474208227750" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="修复点菜页面HTML结构错乱问题">
       <created>1474050028794</created>
@@ -412,17 +397,24 @@
       <option name="project" value="LOCAL" />
       <updated>1474169596611</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加了删除菜的功能">
+      <created>1474188209556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474188209556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38212000" />
+    <option name="totallyTimeSpent" value="38273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="404" y="371" width="909" height="667" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26619554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,20 +451,14 @@
     <MESSAGE value="修改了点菜流程中的样式" />
     <MESSAGE value="删除一个测试文件" />
     <MESSAGE value="修改部分样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改部分样式" />
+    <MESSAGE value="增加了删除菜的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了删除菜的功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/qrcode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2413">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bitmat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -700,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="608">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
             <marker date="1474136752000" expanded="true" signature="273:578" ph="..." />
@@ -771,11 +756,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/addstyle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <marker date="1474133552000" expanded="true" signature="540:625" ph="INSERT INTO `style`... " />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -797,19 +780,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/dishlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="1026">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <marker date="1474188115646" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
-            <marker date="1474188115646" expanded="true" signature="417:466" ph="DELETE FROM " />
-            <marker date="1474188115646" expanded="true" signature="417:467" ph="DELETE FROM " />
-            <marker date="1474188115646" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
-            <marker date="1474188115646" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
-            <marker date="1474188115646" expanded="true" signature="1401:1425" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1401:1437" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1401:1643" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1504:1643" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,10 +790,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1474133552000" expanded="true" signature="2503:2686" ph="INSERT INTO `dish`... " />
-            <marker date="1474133552000" expanded="true" signature="2843:2864" ph="SELECT * FRO... style" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,12 +807,12 @@
         <state relative-caret-position="420">
           <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
           <folding>
-            <marker date="1474188175307" expanded="true" signature="34:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="42:473" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="412:464" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="507:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="525:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="585:930" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="34:998" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="42:473" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="412:464" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="507:998" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="525:998" ph="..." />
+            <marker date="1474202356000" expanded="true" signature="585:997" ph="..." />
           </folding>
         </state>
       </provider>

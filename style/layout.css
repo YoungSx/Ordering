@@ -40,6 +40,9 @@ h1, h2 {
 }
 .dtitle{
 	background-color: #ffffff;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
 }
 .dish {
     float: left;
@@ -104,7 +107,6 @@ footer{
 
 }
 #navbar{
-	width:430px;
 	margin:0px auto;
 	text-align: center;
 }
@@ -376,18 +378,18 @@ color: #FFFFFF;
 	float: left;
 	margin:0px 5px;
 }
-.num1{
-	border-radius: 50px;
-	width: 70px;
-	height: 70px;
-	border: 1px solid;
-	border-color: #007DFF;
-	line-height: 70px;
-	color: #007DFF;
-	margin-bottom: 10px;
-	background: #ffffff;
-	float: left;
-	margin: 27px;
+.num1 {
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-color: #007DFF;
+    line-height: 70px;
+    color: #007DFF;
+    margin-bottom: 10px;
+    background: #ffffff;
+    display: inline-block;
+    margin: 4%;
 }
 .center{
 	background: #eee;
@@ -429,3 +431,42 @@ color: #FFFFFF;
 	border-radius:15px;
 	margin-top: 2em;
 }
+.textK2 input{
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+}
+#styleList ul{
+	list-style: none;
+}
+#content{
+	list-style: none;
+}
+.stylename{
+	line-height: 1.5;
+    clear: both;
+    background: #007DFF;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+.delete{
+	margin-bottom: 45px;
+}
+.textK3{
+	margin-top: 0px;
+	
+}
+#qrcode{
+	width: 200px;
+	height: 200px;
+	margin-top:15px; 
+	text-align:center;
+	margin: 10px auto;
+	margin-top:25px;
+}
+.navnav{
+	margin: 0 auto;
+	width: 340px;
+}
+

@@ -20,7 +20,7 @@ while($row=mysql_fetch_row($result)){
 	}
 
 	
-	echo $menu[$i]['tid'].'号桌，共'.$menu[$i]['totalprice'].'元<button onclick="disposeMenu('.$menu[$i]['mid'].',this);watchData();">处理</button><br /><hr />';
+	echo $menu[$i]['tid'].'号桌，共'.$menu[$i]['totalprice'].'元<button class="btn" onclick="disposeMenu('.$menu[$i]['mid'].',this);watchData();">处理</button><br /><hr />';
 	$i++;
 }
 ?>

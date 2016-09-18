@@ -40,6 +40,7 @@ while($row = mysql_fetch_row($result)){
 }
 echo '</br>总价：￥'.$full_price;
 echo "</br><a href='continue.php' class='btn'>去支付</a>";
+echo "</br><a href='index.php' class='btn'>重新点</a>";
 mysql_close($con);
 $_SESSION['my_menu'] = json_encode($my_menu);
 include('footer.php');

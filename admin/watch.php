@@ -5,7 +5,7 @@ if(!isset($_SESSION['uname']))	header("Location: login.php");
 include('adminheader.php');
 echo <<<EOT1
 			<div id='content'>
-				<div>尚未处理的菜单:</div>
+				<div><h3 class="stylename">尚未处理的菜单<h3></div>
 				<div id="menuListDIV">
 					<ol id="menuListUl">
 					</ol>
