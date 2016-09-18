@@ -394,6 +394,12 @@ color: #FFFFFF;
 .center{
 	background: #eee;
 }
+<<<<<<< HEAD
+=======
+.center{
+	background: #eee;
+}
+>>>>>>> origin/master
 
 
 
@@ -430,6 +436,7 @@ color: #FFFFFF;
 	border: 1px solid #dedede;
 	border-radius:15px;
 	margin-top: 2em;
+<<<<<<< HEAD
 }
 .textK2 input{
 	margin-top: 2em;
@@ -470,3 +477,6 @@ color: #FFFFFF;
 	width: 340px;
 }
 
+=======
+}
+>>>>>>> origin/master
