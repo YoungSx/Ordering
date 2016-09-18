@@ -44,18 +44,11 @@ while($row=mysql_fetch_row($result)){
         echo "<div class=\"stylename\">$stylename</div>";
     }
     //输出每个菜系下的菜
-<<<<<<< HEAD
     echo "
     <li>
             <div class='dishname'>" . $dish[$i]['dname'] . "</div>
             <div class='dishprice'>" . $dish[$i]['dprice'] . "</div>
             <a href='dishlist.php?dishid=" . $dish[$i]['id'] . "' class='delete btn'>删除</a>
-=======
-    echo "<li>
-            <div class='dishname'>" . $dish[$i]['dname'] . "</div>
-            <div class='dishprice'>" . $dish[$i]['dprice'] . "</div>
-            <a href='dishlist.php?dishid=" . $dish[$i]['id'] . "' class='delete'>删除</a>
->>>>>>> origin/master
            </li>";
     $i++;
 }
