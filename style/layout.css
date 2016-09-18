@@ -198,7 +198,6 @@ select {
 .choose{
 	width: 70%;
 	height: 30px;
-	border-radius:10px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 40px;
@@ -330,28 +329,7 @@ color: #FFFFFF;
 	text-align: center;
 	line-height: 40px;
 }
-.textK1{
-	height: 30px;
-	 border: 1px solid #dedede;
-	 border-radius:15px;
-	 margin-top: 100px;
-}
-.textK2{
-	height: 30px;
-	 border: 1px solid #dedede;
-	 border-radius:15px;
-	 margin-top: 10px;
-	 margin-bottom: 50px;
-}
-.textK3{
-	height: 30px;
-	 border: 1px solid #dedede;
-	 border-radius:15px;
-	 margin-top: 10px;
-}
-.cten{
-	margin-left: 1em;
-}
+
 #totalCountDiv{
 	position: fixed;
 	bottom:5px;
@@ -411,11 +389,43 @@ color: #FFFFFF;
 	float: left;
 	margin: 27px;
 }
-.table{
-	height: 120px;
-	line-height: 100px;
-	font-size: 16px;
-}
 .center{
 	background: #eee;
+}
+
+
+
+/*---------index---------*/
+
+.table{
+	height: 100px;
+	line-height: 100px;
+	font-size: 16px;
+	text-align: center;
+}
+.selectTable{
+	margin: 0px auto;
+	display: block;
+	margin-bottom: 0.5em;
+}
+.indexButton{
+	text-align: center;
+	margin: 1em auto;
+}
+
+
+
+
+/*---------login---------*/
+
+.cten{
+	text-align: center;
+	margin-top: 50px;
+	m
+}
+.textK1{
+	height: 30px;
+	border: 1px solid #dedede;
+	border-radius:15px;
+	margin-top: 2em;
 }

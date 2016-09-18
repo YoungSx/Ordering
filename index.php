@@ -11,7 +11,7 @@ echo <<<EOT
   		<script src="JS/mainscript.js"></script>
 	</head>
 	<body>
-		<div id="main">
+
 			<form  action='home.php' method='GET' id="table_form">
 				<div class="choose">
 					<div class="choose1">
@@ -20,19 +20,23 @@ echo <<<EOT
 					<div class="choose2">
 						<div><a href="admin/login.php" class="chooseRight" >商家</a></div>
 					</div>
-				<div>
-				<div class="table">我在这张桌</div>
-				<select name="tableId" id="selectTableId" >
+				</div>
+					<div class="table">我在这张桌</div>
+					<div class="selectTable">
+						<select name="tableId" id="selectTableId" class="selectTable">
 EOT;
 $table_num=9;
 while($table_num--) echo "<option value='".($table_num + 1)."'>".($table_num + 1)."</option>";
 echo <<<EOT1
 						
-				</select>
+						</select>
+				</div>
+				<div class="indexButton">
 					<input type="submit" class="btn" value="我要点菜"/>
 					<a href="src/test.html" class="btn">在线扫码</a>
+				</div>
 			</form>
-		</div>
+	
 	</body>
 </html>
 EOT1;

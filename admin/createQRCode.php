@@ -10,7 +10,7 @@ include('adminheader.php');
 
 <label for="text">在下方输入桌号，如1，再点击生成</label><br />
 <input id="text" type="text" value="1" style="width:80%" /><br />
-<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+<div id="qrcode" style="width:100px; height:100px; margin-top:15px; text-align:center;"></div>
 
 <script type="text/javascript">
     var qrcode = new QRCode(document.getElementById("qrcode"), {

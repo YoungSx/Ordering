@@ -18,8 +18,6 @@ echo "
   		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no'/>
 	</head>
 	<body>
-        <div id=\"main\">
-            <div class=\"nav\">点菜</div>
 ";
 
 ?>
@@ -33,8 +31,11 @@ echo "
 				<label>用户名</label>
 				<input type='text' class="textK1" name='uname' form='login_form'/><br />
 				<label>密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
-				<input type='password' class="textK2" name='pword' form='login_form'/><br />
-				<input type='submit' class="btn" value='登录'/><br />
+				<input type='password' class="textK1" name='pword' form='login_form'/><br />
+				<div class="indexButton">
+					<input type='submit' class="btn" value='登录'/><br />
+				</div>
+				
 				用户名：admin 密码：password
 			</form>
 		</div>
