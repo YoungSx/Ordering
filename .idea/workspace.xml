@@ -37,15 +37,15 @@
       <file leaf-file-name="adminheader.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/adminheader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+            <state relative-caret-position="439">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="2" />
               <folding>
-                <marker date="1474188175307" expanded="true" signature="34:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="42:473" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="412:464" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="507:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="525:931" ph="..." />
-                <marker date="1474188175307" expanded="true" signature="585:930" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="34:931" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="42:473" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="412:464" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="507:931" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="525:931" ph="..." />
+                <marker date="1474207762815" expanded="true" signature="585:930" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,15 +70,15 @@
             <state relative-caret-position="1026">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
-                <marker date="1474188115646" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
-                <marker date="1474188115646" expanded="true" signature="417:466" ph="DELETE FROM " />
-                <marker date="1474188115646" expanded="true" signature="417:467" ph="DELETE FROM " />
-                <marker date="1474188115646" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
-                <marker date="1474188115646" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
-                <marker date="1474188115646" expanded="true" signature="1401:1425" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1401:1437" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1401:1643" ph="..." />
-                <marker date="1474188115646" expanded="true" signature="1504:1643" ph="..." />
+                <marker date="1474207762824" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
+                <marker date="1474207762824" expanded="true" signature="417:466" ph="DELETE FROM " />
+                <marker date="1474207762824" expanded="true" signature="417:467" ph="DELETE FROM " />
+                <marker date="1474207762824" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
+                <marker date="1474207762824" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
+                <marker date="1474207762824" expanded="true" signature="1401:1425" ph="..." />
+                <marker date="1474207762824" expanded="true" signature="1401:1437" ph="..." />
+                <marker date="1474207762824" expanded="true" signature="1401:1643" ph="..." />
+                <marker date="1474207762824" expanded="true" signature="1504:1643" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,9 +110,9 @@
             <state relative-caret-position="608">
               <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding>
-                <marker date="1474136752000" expanded="true" signature="273:578" ph="..." />
-                <marker date="1474136752000" expanded="true" signature="281:568" ph="..." />
-                <marker date="1474136752000" expanded="true" signature="576:578" ph="..." />
+                <marker date="1474207746457" expanded="true" signature="273:578" ph="..." />
+                <marker date="1474207746457" expanded="true" signature="281:568" ph="..." />
+                <marker date="1474207746457" expanded="true" signature="576:578" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/admin/createQRCode.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -367,7 +367,7 @@
       <workItem from="1474129469583" duration="4144000" />
       <workItem from="1474167350321" duration="2085000" />
       <workItem from="1474169989197" duration="7190000" />
-      <workItem from="1474207567240" duration="23000" />
+      <workItem from="1474207567240" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="修复点菜页面HTML结构错乱问题">
       <created>1474050028794</created>
@@ -418,19 +418,33 @@
       <option name="project" value="LOCAL" />
       <updated>1474188209556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加了删除菜的功能">
+      <created>1474207597001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474207597001</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加了删除菜的功能">
+      <created>1474207693142</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1474207693142</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38668000" />
+    <option name="totallyTimeSpent" value="38870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -741,15 +755,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/adminheader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        <state relative-caret-position="439">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="2" />
           <folding>
-            <marker date="1474188175307" expanded="true" signature="34:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="42:473" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="412:464" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="507:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="525:931" ph="..." />
-            <marker date="1474188175307" expanded="true" signature="585:930" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="34:931" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="42:473" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="412:464" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="507:931" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="525:931" ph="..." />
+            <marker date="1474207762815" expanded="true" signature="585:930" ph="..." />
           </folding>
         </state>
       </provider>
@@ -770,15 +784,15 @@
         <state relative-caret-position="1026">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <marker date="1474188115646" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
-            <marker date="1474188115646" expanded="true" signature="417:466" ph="DELETE FROM " />
-            <marker date="1474188115646" expanded="true" signature="417:467" ph="DELETE FROM " />
-            <marker date="1474188115646" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
-            <marker date="1474188115646" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
-            <marker date="1474188115646" expanded="true" signature="1401:1425" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1401:1437" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1401:1643" ph="..." />
-            <marker date="1474188115646" expanded="true" signature="1504:1643" ph="..." />
+            <marker date="1474207762824" expanded="true" signature="257:297" ph="SELECT * FRO... dish" />
+            <marker date="1474207762824" expanded="true" signature="417:466" ph="DELETE FROM " />
+            <marker date="1474207762824" expanded="true" signature="417:467" ph="DELETE FROM " />
+            <marker date="1474207762824" expanded="true" signature="704:743" ph="SELECT * FRO... dish" />
+            <marker date="1474207762824" expanded="true" signature="1138:1204" ph="SELECT `styl... style" />
+            <marker date="1474207762824" expanded="true" signature="1401:1425" ph="..." />
+            <marker date="1474207762824" expanded="true" signature="1401:1437" ph="..." />
+            <marker date="1474207762824" expanded="true" signature="1401:1643" ph="..." />
+            <marker date="1474207762824" expanded="true" signature="1504:1643" ph="..." />
           </folding>
         </state>
       </provider>
@@ -804,9 +818,9 @@
         <state relative-caret-position="608">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
-            <marker date="1474136752000" expanded="true" signature="273:578" ph="..." />
-            <marker date="1474136752000" expanded="true" signature="281:568" ph="..." />
-            <marker date="1474136752000" expanded="true" signature="576:578" ph="..." />
+            <marker date="1474207746457" expanded="true" signature="273:578" ph="..." />
+            <marker date="1474207746457" expanded="true" signature="281:568" ph="..." />
+            <marker date="1474207746457" expanded="true" signature="576:578" ph="..." />
           </folding>
         </state>
       </provider>
@@ -832,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/admin/createQRCode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
